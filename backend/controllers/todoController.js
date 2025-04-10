@@ -1,5 +1,5 @@
 
-const Todo=require("../models/Todo");
+const Todo=require("../models/todo");
 
 const getTodos=async(req,res)=>{
   const todos=await Todo.find({userId:req.userId});
