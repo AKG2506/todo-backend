@@ -65,10 +65,10 @@ You can test all endpoints using [Postman](https://www.postman.com/). Follow the
 
 **Sample Request:**
 ``json
-{
-  "email": "test@example.com",
-  "password": "password123"
-}
+- {
+-   "email": "test@example.com",
+-   "password": "password123"
+- }
 
 ---
 ## 🔑 Add JWT to Authorization Header
