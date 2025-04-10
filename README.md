@@ -49,7 +49,27 @@ A production-ready REST API built with Node.js, Express, MongoDB, and JWT authen
 > 📌 Pass your JWT token in `Authorization: Bearer <token>` header.
 
 ---
+## 📬 How to Use This API with Postman
 
+You can test all endpoints using [Postman](https://www.postman.com/). Follow the steps below:
+
+---
+
+### 🔐 1. Sign Up a New User
+
+**POST** `/auth/signup`
+
+**Sample Request:**
+```json
+{
+  "email": "test@example.com",
+  "password": "password123"
+}
+
+**Same For Signup**
+
+
+---
 ## 🔧 Environment Variables
 
 ```env
