@@ -49,10 +49,9 @@ A production-ready REST API built with Node.js, Express, MongoDB, and JWT authen
 > 📌 Pass your JWT token in `Authorization: Bearer <token>` header.
 
 ## 🔧 Environment Variables
-
--PORT=3000
--MONGO_URI=your_mongo_uri_here
--JWT_SECRET=your_jwt_secret
+- PORT=3000
+- MONGO_URI=your_mongo_uri_here
+- JWT_SECRET=your_jwt_secret
 ---
 ## 📬 How to Use This API with Postman
 
