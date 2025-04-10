@@ -64,10 +64,16 @@ You can test all endpoints using [Postman](https://www.postman.com/). Follow the
 **POST** `/auth/signup`
 
 **Sample Request:**
-```json
+``json
 {
   "email": "test@example.com",
   "password": "password123"
 }
+
+---
+## 🔑 Add JWT to Authorization Header
+To access protected /todos routes, add this header to all requests:
+- Key: Authorization
+- Value: Bearer your_jwt_token_here
 
 
